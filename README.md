@@ -6,6 +6,8 @@ _Feb 11, 2022:_ We are importing articles from our KB and setting up examples fo
 
 Our [open source Python API](https://github.com/Data-Culpa/openclients) is in its own repository.
 
+The best way to get support is to open a support ticket by emailing [support@dataculpa.com](support@dataculpa.com).
+
 
 ## Overview
 
