@@ -2,9 +2,9 @@
 
 This repository contains all the documentation for [Data Culpa Validator](https://www.dataculpa.com/what-we-do/).
 
-We are importing articles from our KB and setting up examples for APIs, etc.
+_Feb 11, 2022:_ We are importing articles from our KB and setting up examples for APIs, etc.
 
-Our open source Python API is in its own repository.
+Our [open source Python API](https://github.com/Data-Culpa/openclients) is in its own repository.
 
 
 ## Overview
