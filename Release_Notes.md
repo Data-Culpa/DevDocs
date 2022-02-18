@@ -6,6 +6,7 @@ GUI:
 
 Backend:
 * Adjust garbage collection behavior.
+___
 
 ### 1.4.2 (Feb 12, 2022)
 GUI:
@@ -16,7 +17,7 @@ GUI:
 Backend:
 * Enhanced automatic internal state backups
 * Push connector errors up to alerts/GUI (mostly an issue with FastCols-enabled connectors).
-
+___
 
 ### 1.4.0 (Jan 25, 2022)
 GUI:
