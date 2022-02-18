@@ -1,3 +1,12 @@
+### 1.4.6 (Feb 17, 2022)
+GUI:
+* Fix schema bubble sizing to start its scale at 0, so the bubbles are more clearly comparable.
+* Fix bug with week-over-week alert configuration.
+* Fix context/stage label mismatch on watchpoints.
+
+Backend:
+* Adjust garbage collection behavior.
+
 ### 1.4.2 (Feb 12, 2022)
 GUI:
 * New dashboard page providing a summary of all watchpoints.
@@ -6,7 +15,7 @@ GUI:
 
 Backend:
 * Enhanced automatic internal state backups
-* Push connector errors up to alerts/GUI.
+* Push connector errors up to alerts/GUI (mostly an issue with FastCols-enabled connectors).
 
 
 ### 1.4.0 (Jan 25, 2022)
