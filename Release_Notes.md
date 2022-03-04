@@ -1,3 +1,10 @@
+### Upcoming:
+* Alert confirmation button for training.
+* Improved alert configuration parameters.
+* "Run now" button for in-product controlled data.
+* Improved data prediction... :-)
+* And much more :-)
+
 ### 1.5.0 (Mar 3, 2022)
 Alerts:
 * Improved alert wording, clarifying many aspects of the alerts.
