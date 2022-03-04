@@ -14,7 +14,7 @@ Backend:
 * Implemented multi-streaming for watchpoints, enabling multiple concurrent streams into a single endpoint.
 * Implemented timeout configuration for watchpoints (and associated GUI).
 * Improved time to detect new data for trial installations.
-* 
+___
 
 ### 1.4.6 (Feb 17, 2022)
 GUI:
