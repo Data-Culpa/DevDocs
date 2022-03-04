@@ -4,6 +4,7 @@
 * "Run now" button for in-product controlled data.
 * Improved data prediction... :-)
 * And much more :-)
+___
 
 ### 1.5.0 (Mar 3, 2022)
 Alerts:
