@@ -1,3 +1,21 @@
+### 1.5.0 (Mar 3, 2022)
+Alerts:
+* Improved alert wording, clarifying many aspects of the alerts.
+* Significant improvements to alert thresholding and sensitivity to noise.
+* Fixed bugs with duplicate data detection.
+
+GUI:
+* Fixed sankey schema rendering bug when rendering an "empty time" period.
+* Fixed a number of bugs and error paths with the BigQuery wizard.
+* Fixed a number of small nits.
+
+Backend:
+* Improved logging from fastcols processing.
+* Implemented multi-streaming for watchpoints, enabling multiple concurrent streams into a single endpoint.
+* Implemented timeout configuration for watchpoints (and associated GUI).
+* Improved time to detect new data for trial installations.
+* 
+
 ### 1.4.6 (Feb 17, 2022)
 GUI:
 * Fix schema bubble sizing to start its scale at 0, so the bubbles are more clearly comparable.
