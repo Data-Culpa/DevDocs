@@ -6,6 +6,20 @@
 * And much more :-)
 ___
 
+### 1.6.0 (Mar 14, 2022)
+Pviot Schemas:
+ * Provide "pivot schema" configuration to virtualize schemas monitored by Validator based on categorical values.
+
+GUI:
+ * Fork a watchpoint to start a new context, separate from the old history, without giving up the old data.
+
+Backend:
+ * Fixed a major garbage collection bug where it wasn't collecting everything it was supposed to.
+ * Some small bug fixes.
+ * Numerous "behind the scenes" improvements in fastcols processing and reliability.
+
+___
+
 ### 1.5.0 (Mar 3, 2022)
 Alerts:
 * Improved alert wording, clarifying many aspects of the alerts.
