@@ -7,7 +7,7 @@
 ___
 
 ### 1.6.0 (Mar 14, 2022)
-Pviot Schemas:
+Pivot Schemas:
  * Provide "pivot schema" configuration to virtualize schemas monitored by Validator based on categorical values.
 
 GUI:
