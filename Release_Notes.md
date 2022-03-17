@@ -6,6 +6,18 @@
 * And much more :-)
 ___
 
+### 1.6.1 (Mar 17, 2022)
+GUI:
+ * Fixed bug with multiple pipeline contexts and displaying the names properly in the BigQuery wizard.
+ * Fixed a bug that could cause incorrect error messages to appear on pipeline processing when GC was scrubbing old data caches.
+ * Show current pivot schema configuration when it exists on a watchpoint.
+ * Show a warning when viewing an empty watchpoint instead of the mysterious blank screen.
+ * Improve feedback when forking and deleting watchpoints.
+
+Backend:
+ * Handle an issue with no new data and concluding the data ingest with pivot schemas.
+___
+
 ### 1.6.0 (Mar 14, 2022)
 Pivot Schemas:
  * Provide "pivot schema" configuration to virtualize schemas monitored by Validator based on categorical values.
