@@ -6,6 +6,16 @@
 * And much more :-)
 ___
 
+### 1.6.3 (Mar 23, 2022)
+GUI
+ * A change to the alerts display to show _active_ alerts that are older than the current time window displayed.
+
+Backend:
+ * Some internal changes to improve clustering performance.
+ * Fixed an issue that could cause alert processing to generate alerts during data ingest.
+
+___
+
 ### 1.6.1 (Mar 17, 2022)
 GUI:
  * Fixed bug with multiple pipeline contexts and displaying the names properly in the BigQuery wizard.
