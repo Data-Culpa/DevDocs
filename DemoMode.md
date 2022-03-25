@@ -17,7 +17,7 @@ Once four days of data are loaded, Validator will begin calculating alerts and i
 
 _1.6.5 and later_
 
-Demo Mode can be configured in the Alerts configuration dialog per watchpoint. When using Demo Mode, Data Culpa Validator will synthesize a baseline of data based on your first day of data loaded, if you do not have more than four days of data available. The synthetic baseline will not show up in the user interface, but is computed "just in time" when checking for alert conditions.
+Demo Mode can be configured in the Alerts configuration dialog per watchpoint. When using Demo Mode, Data Culpa Validator will synthesize a baseline of data based on your first day of data loaded, if you do not have more than 7 days of data available. The synthetic baseline will not show up in the user interface, but is computed "just in time" when checking for alert conditions.
 
 Validator will only synthesize data for sequential alerts (i.e., no synthetic data will be computed for week over week alerting).
 
