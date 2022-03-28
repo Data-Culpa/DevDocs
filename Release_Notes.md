@@ -14,6 +14,7 @@ GUI
 
 Backend:
  * Support for demo mode.
+___
 
 ### 1.6.3 (Mar 23, 2022)
 GUI
@@ -22,7 +23,6 @@ GUI
 Backend:
  * Some internal changes to improve clustering performance.
  * Fixed an issue that could cause alert processing to generate alerts during data ingest.
-
 ___
 
 ### 1.6.1 (Mar 17, 2022)
