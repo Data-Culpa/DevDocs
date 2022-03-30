@@ -1,9 +1,19 @@
 ### Upcoming:
-* Alert confirmation button for training.
-* Improved alert configuration parameters.
-* "Run now" button for in-product controlled data.
-* Improved data prediction... :-)
-* And much more :-)
+* The next big thing is coming! It's available under NDA with select accounts right now for testing.
+___
+
+### 1.6.7 (Mar 30, 2022)
+Slack
+ * Slack support is completely revamped with new configuration knobs and roll-ups to summarize both new and active alerts, making the alerts much more useful and compact in Slack.
+
+GUI
+ * Run now button for use with built-in connectors.
+ * Alert tagging from GUI to provide feedback to the Validator models.
+ * Fixed a cohesion rendering issue that sometimes appeared when viewing older data.
+
+Backend:
+ * Data flow preidction bug fixes.
+ * Fixed a timeout condition that could cause prediction models to run before data had finished landing on extremely large ingests.
 ___
 
 ### 1.6.5 (Mar 28, 2022)
