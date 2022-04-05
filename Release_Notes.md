@@ -2,6 +2,18 @@
 * The next big thing is coming! It's available under NDA with select accounts right now for testing.
 ___
 
+### 1.7.1 (Apr 05, 2022)
+GUI
+ * New "90 days of alerts" mode to see bigger history of alerts per watchpoint.
+ * New navigation bar changes. System status and version info is now in the "multi-gear" window.
+ * Some minor tweaks to alert configuration.
+ * Fixed a bug that would hide alerts "from the future" when there had been no activity on a watchpoint for a while.
+ * Some auth changes to reduce confusing behavior when authentication tokens are in-flight and the UI is asking for watchpoint activity.
+
+Backend:
+ * Fixed a bug in the scheduler that could prevent jobs from running when some dangling configuration from archived watchpoints was present. The scheduler will try to catch up on jobs if their scheduled time has been missed.
+ * New fastcols data path changes that dramatically increases time to results when ingesting 1 billion (and up) values in very short time periods.
+
 ### 1.6.7 (Mar 30, 2022)
 Slack
  * Slack support is completely revamped with new configuration knobs and roll-ups to summarize both new and active alerts, making the alerts much more useful and compact in Slack.
