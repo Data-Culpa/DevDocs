@@ -13,6 +13,7 @@ GUI
 Backend:
  * Fixed a bug in the scheduler that could prevent jobs from running when some dangling configuration from archived watchpoints was present. The scheduler will try to catch up on jobs if their scheduled time has been missed.
  * New fastcols data path changes that dramatically increases time to results when ingesting 1 billion (and up) values in very short time periods.
+___
 
 ### 1.6.7 (Mar 30, 2022)
 Slack
