@@ -29,7 +29,7 @@ The bulk of alert configuration lives in the 'single gear' configuration dialog.
 
 * Zeroes and nulls - This refers to big jumps of zeroes and nulls in a single column. When we talk about "deviations", we usually mean a median absolute deviation of motion over our data window. Sometimes we use the std deviation, depending on the data set.
 
-* Data types - Validator ignores metadata about data types if available (e.g., SQL types) and attempts to promote data to its native type. As of version 1.8, Validator looks for numeric data, string data, inferred categories, and dates. We have found many data and numbers stored as strings (for example) intentionally, but our alerting is focused on changes in the underlying types that may not be expected.
+* Data types - Validator ignores metadata about data types if available (e.g., SQL types) and attempts to promote data to its native type. As of version 1.8, Validator looks for numeric data, string data, inferred categories, and dates. We have found many dates and numbers stored as strings (for example) intentionally, but our alerting is focused on changes in the underlying types that may not be expected.
 
 * Distribution - Validator looks for changes in distributions. For strings we compute an entropy complexity so that we can map arbitrary strings into a meaningful distribution and for numeric data, we use a proprietary histogram method.
 
