@@ -17,13 +17,15 @@ When using demo mode on a watchpoint, we replicate the first set of data that we
 
 The bulk of alert configuration lives in the 'single gear' configuration dialog.
 
+![Alert Config Screenshot](https://bits.dataculpa.com/docs-screenshots/config-alerts.png)
+
 * Missing data activity - this can refer to no data logged with Validator or no attempt to create a data session. When using Validator from a pipeline with the Validator API, we recommend opening and closing an empty queue when there is no data so that Validator can track that no activity happened, but the pipeline was running.
 
 * Schema changes - this means any change to the schema layout: such as a missing field, or a new field added.
 
 * Duplicate data - we have heard horror stories of stale files being processed as if they were new. Duplicate data detection enables you to find big groups of duplicate columns that are not changing. If very few columns are present in the data set, Validator will "fuzzily" round down the threshold, but with 20+ columns, this is not necessary. Validator can rapidly search a month's worth of data looking for repeated sections of columns.
 
-Validator does not attempt to find chunks of rows that are duplicate; these can be identified with either sub-views that split the data to look for this kind of behavior or potentially using the Validator pivot schema feature.
+* *Note:* Validator does not attempt to find chunks of rows that are duplicate; these can be identified with either sub-views that split the data to look for this kind of behavior or potentially using the Validator pivot schema feature.
 
 * Zeroes and nulls - Big jumps of zeroes and nulls in a single column. When we talk about "deviations", we usually mean a median absolute deviation of motion over our data window. Sometimes we use the std deviation, depending on the data set.
 
@@ -35,9 +37,19 @@ Validator does not attempt to find chunks of rows that are duplicate; these can 
 
 * Categories - With Validator 1.9, we infer categories from dates and apply our distribution alerting on the categories. We also can alert if a new category value appears; otherwise big changes in the categories will be reflected in the distribution.
 
+#### Additional Alerts:
+
+In addition to the configurable alert knobs, Validator will generate alerts for the following:
+
+* Mis-configured gold standard situations.
+* Log 'alert' messages pushed from the Validator API from connectors or your API calls (enabling your application to augment the log and alert streams found in the Watchpoint activity)
+* Invalid, unparse-able CSV, Parquet, etc files pushed to Validator
+
+
 ### Data Flows
 
 In private beta, we enable correlation of alerts across linked watchpoints. Contact us for more information.
+
 
 
 _Patents pending._
