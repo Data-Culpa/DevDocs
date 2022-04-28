@@ -2,7 +2,7 @@
 
 ### Alert Windowing
 
-By default, Validator break time into days. This enables easy understanding of data flows over time and lets you compare day to day or week to week.
+By default, Validator breaks time into days. This enables easy understanding of data flows over time and lets you compare day to day or week to week.
 
 When multiple data streams arrive within a day, they are rolled up into a model for the given day. If a stream rolls over midnight, all of the data is considered to be part of the previous data.
 
