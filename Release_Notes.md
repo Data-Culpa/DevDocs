@@ -1,7 +1,20 @@
 ### Upcoming:
 * The next big thing is coming! It's available under NDA with select accounts right now for testing.
 ___
+### 1.7.7 (May  7, 2022)
+Alerts:
+ * Duplicate data alerts no longer rolled up.
+ * Improve flow alert prediction.
+ * Slack messages now prefixed with 'Data Culpa'
 
+UI:
+ * Fix links to stale watchpoints from dashboard.
+ * Improve message when checking Auth0 for auth tokens, which can linger while waiting for a timeout, to say 'Checking authentication' instead of 'Loading'.
+ * Reworks alert configuration dialog.
+
+Snowflake:
+ * Numerous Snowflake improvements for live feedback in UI, highlighting the selected watchpoint, etc.
+ 
 ### 1.7.5 (Apr 10, 2022)
 GUI:
  * Enable low/high field presence thresholds.
