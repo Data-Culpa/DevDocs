@@ -15,6 +15,7 @@ UI:
 Snowflake:
  * Numerous Snowflake improvements for live feedback in UI, highlighting the selected watchpoint, etc.
  
+___
 ### 1.7.5 (Apr 10, 2022)
 GUI:
  * Enable low/high field presence thresholds.
